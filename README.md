@@ -1,8 +1,8 @@
-Civic Issue Detection System
+## Civic Issue Detection System
 
 This project is a Civic Issue Detection System that uses AI and real-time data to identify and report civic issues like potholes and garbage. It consists of an AI Model, a Node.js Backend, and a Frontend (HTML, CSS, JavaScript).
 
-📌 Features
+## 📌 Features
 
 AI-powered civic issue detection using YOLO
 
@@ -16,7 +16,7 @@ Live camera feed integration with AI overlays
 
 Community voting for issue prioritization
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 Frontend: HTML, CSS, JavaScript (Bootstrap)
 
@@ -28,7 +28,7 @@ AI Model: Python, OpenCV, YOLO
 
 Real-time Updates: WebSockets (Socket.IO)
 
-📂 Project Structure
+## 📂 Project Structure
 
 ```civic-issue-detection-system/
 │── ai-model/             # AI model and scripts
@@ -53,7 +53,7 @@ Real-time Updates: WebSockets (Socket.IO)
 │── README.md             # Project documentation
 ```
 
-🚀 Installation & Setup
+## 🚀 Installation & Setup
 ```
 1. Clone the Repository
 
@@ -108,7 +108,7 @@ npx http-server .
 | POST   | `/api/auth/login`    | User login         |
 | POST   | `/api/auth/register` | User registration  |
 
-🎯 Future Improvements
+## 🎯 Future Improvements
 
 Mobile app integration
 
@@ -116,7 +116,7 @@ More AI models for different civic issues
 
 Enhanced admin panel
 
-📜 License
+## 📜 License
 
 This project is licensed under the MIT License.
 
