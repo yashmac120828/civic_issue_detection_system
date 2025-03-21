@@ -54,23 +54,27 @@ Real-time Updates: WebSockets (Socket.IO)
 ```
 
 🚀 Installation & Setup
-
+```
 1. Clone the Repository
 
-````git clone https://github.com/yashamc120828/civic_issue_detection_system.git
+git clone https://github.com/yashamc120828/civic_issue_detection_system.git
 cd civic-issue-detection-system
 
-````
+```
+```
 2. Set Up the AI Model
 
 cd ai-model
 pip install -r requirements.txt
+```
+```
 
 3. Set Up the Backend
 
 cd backend
 npm install
-
+```
+```
 4. Set Up Environment Variables
 
 Create a .env file inside backend/ and add:
@@ -78,17 +82,21 @@ Create a .env file inside backend/ and add:
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_secret_key
-
+```
+```
 5. Run the Backend Server
 
 npm start
-
+```
+```
 6. Open the Frontend
 
 Simply open frontend/index.html in a browser or start a local server:
 
 cd frontend
 npx http-server .
+
+```
 
 📡 API Endpoints
 
