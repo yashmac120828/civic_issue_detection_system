@@ -1,0 +1,29 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Center the card */
+.card {
+    border-radius: 12px;
+}
+
+/* Input focus effect */
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Button hover effects */
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
+/* Eye icon button styling */
+.input-group .btn {
+    border-radius: 0 5px 5px 0;
+}

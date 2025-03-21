@@ -1,0 +1,48 @@
+/* Map Container Styling */
+#map {
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Page Styling */
+body {
+    background-color: #f8f9fa;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Bootstrap Card Customization */
+.card {
+    border: none;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+.popup {
+    font-family: 'Poppins', sans-serif;
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.popup img {
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.low {
+    color: green;
+}
+
+.medium {
+    color: orange;
+}
+
+.high {
+    color: red;
+    font-weight: bold;
+}

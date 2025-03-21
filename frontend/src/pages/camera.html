@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Camera with AI Detection</title>
+    <link rel="stylesheet" href="../styles/camera.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Live Camera Feed with AI Overlays</h1>
+        
+        <!-- Buttons for Camera Controls -->
+        <div class="controls">
+            <button id="toggle-camera">Turn Off Camera</button>
+            <button id="switch-camera">Switch Camera</button>
+            <button id="capture">Capture</button>
+            <button id="download">Download Image</button>
+        </div>
+
+        <!-- Camera Feed & Canvas for AI Overlay -->
+        <video id="video" autoplay playsinline></video>
+        <canvas id="canvas"></canvas>
+    </div>
+
+    <script src="../js/camera.js"></script>
+</body>
+</html>

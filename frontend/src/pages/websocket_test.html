@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebSocket Test</title>
+</head>
+<body>
+    <h2>WebSocket Client</h2>
+    <button onclick="sendTestMessage()">Send Test Message</button>
+    <div id="messages"></div>
+
+    <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+    <script>
+        // Connect to WebSocket server
+        
+        const socket = io("http://localhost:5000", {
+    transports: ["websocket", "polling"]
+});
+
+        // Confirm connection
+        socket.on("connect", () => {
+            console.log("Connected to WebSocket Server!");
+            document.getElementById("messages").innerHTML += "<p><b>Connected!</b></p>";
+        });
+
+        // Listen for new issue notifications
+        socket.on("new_issue", (data) => {
+            console.log("New Issue Received:", data);
+            document.getElementById("messages").innerHTML += `<p><b>New Issue:</b> ${data.title} - ${data.description}</p>`;
+        });
+
+        // Send a test message
+        function sendTestMessage() {
+            socket.emit("test_message", { message: "Hello from Frontend!" });
+            console.log("Test message sent!");
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,182 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Card styles */
+.card {
+    border-radius: 12px;
+}
+
+/* Issue Cards */
+.issue-card {
+    border-left: 5px solid #007bff;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.issue-card h5 {
+    margin-bottom: 8px;
+}
+
+.issue-card img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.issue-card .severity {
+    font-weight: bold;
+}
+
+.issue-card .btn-upvote {
+    background: #28a745;
+    color: #fff;
+}
+
+.issue-card .btn-upvote:hover {
+    background: #218838;
+}
+.solved-btn {
+    background-color: #28a745; /* Green background */
+    color: white; /* White text */
+    outline: none;
+    border:none;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+}
+
+.solved-btn:hover {
+    background-color: #218838; /* Darker green on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.solved-btn:active {
+    background-color: #1e7e34; /* Even darker green when active */
+    transform: scale(0.95); /* Slightly shrink on click */
+}
+
+.solved-btn:focus {
+    outline: none; /* Remove default outline */
+    box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.5); /* Add a shadow for focus */
+}
+/* Add to your dashboard.css file */
+.issue-card {
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    height: 100%;
+    border: none;
+    overflow: hidden;
+}
+
+.issue-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.issue-card .card-img-top {
+    height: 180px;
+    object-fit: cover;
+}
+
+.issue-card .badge {
+    font-size: 0.85rem;
+}
+
+.issue-card .severity-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 10px;
+}
+
+.status-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 5px 10px;
+}
+
+.issue-meta {
+    display: flex;
+    justify-content: space-between;
+    color: #6c757d;
+    font-size: 0.85rem;
+    margin-bottom: 10px;
+}
+
+.comment-section {
+    max-height: 200px;
+    overflow-y: auto;
+    margin-top: 15px;
+}
+
+.comment {
+    padding: 8px;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+    margin-bottom: 8px;
+}
+
+.comment-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    font-size: 0.8rem;
+    color: #6c757d;
+}
+/* Leaflet Map Styles */
+.custom-marker-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.marker-icon {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.severity-high {
+    background-color: #dc3545; /* Bootstrap danger red */
+}
+
+.severity-medium {
+    background-color: #ffc107; /* Bootstrap warning yellow */
+}
+
+.severity-low {
+    background-color: #198754; /* Bootstrap success green */
+}
+
+/* Make sure the map takes up full height even when empty */
+#map {
+    min-height: 500px;
+    width: 100%;
+}
+
+/* Style for popup content */
+.leaflet-popup-content {
+    min-width: 200px;
+}
+
+.map-info-window h5 {
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.map-btn {
+    margin-top: 8px;
+}
+/* Responsive Fix */
+@media (max-width: 768px) {
+    .issue-card {
+        padding: 10px;
+    }
+}

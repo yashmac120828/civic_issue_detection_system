@@ -1,0 +1,10 @@
+{
+    "name": "Civic Issue Detector",
+    "short_name": "IssueDetector",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "icons": [
+        { "src": "/assets/icons/alert.svg", "sizes": "192x192", "type": "image/svg" }
+    ]
+}
