@@ -30,7 +30,7 @@ Real-time Updates: WebSockets (Socket.IO)
 
 📂 Project Structure
 
-civic-issue-detection-system/
+```civic-issue-detection-system/
 │── ai-model/             # AI model and scripts
 │   ├── scripts/          # Python scripts (train, detect, preprocess, etc.)
 │   ├── requirements.txt  # AI dependencies
@@ -51,6 +51,7 @@ civic-issue-detection-system/
 │   ├── assets/           # Images, CSS, JavaScript
 │── .gitignore            # Ignored files
 │── README.md             # Project documentation
+```
 
 🚀 Installation & Setup
 
