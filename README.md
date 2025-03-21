@@ -98,43 +98,15 @@ npx http-server .
 
 ```
 
-📡 API Endpoints
+## 📡 API Endpoints
 
-Method
-
-Endpoint
-
-Description
-
-GET
-
-/api/issues
-
-Get all issues
-
-POST
-
-/api/issues
-
-Report a new issue
-
-GET
-
-/api/users
-
-Get all users
-
-POST
-
-/api/auth/login
-
-User login
-
-POST
-
-/api/auth/register
-
-User registration
+| Method | Endpoint             | Description         |
+|--------|----------------------|---------------------|
+| GET    | `/api/issues`        | Get all issues     |
+| POST   | `/api/issues`        | Report a new issue |
+| GET    | `/api/users`         | Get all users      |
+| POST   | `/api/auth/login`    | User login         |
+| POST   | `/api/auth/register` | User registration  |
 
 🎯 Future Improvements
 
