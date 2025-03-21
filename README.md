@@ -57,9 +57,10 @@ Real-time Updates: WebSockets (Socket.IO)
 
 1. Clone the Repository
 
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
+````git clone https://github.com/yashamc120828/civic_issue_detection_system.git
 cd civic-issue-detection-system
 
+````
 2. Set Up the AI Model
 
 cd ai-model
